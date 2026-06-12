@@ -1,9 +1,9 @@
 export const navItems = [
   { label: "Home", href: "/" },
+    { label: "About Us", href: "/about" },
   { label: "Our Services", href: "/services" },
   { label: "Our LMS", href: "/lms" },
   { label: "Our Resources", href: "/resources" },
-  { label: "About Us", href: "/about" },
   { label: "Contact Us", href: "/contact" },
 ];
 
@@ -14,19 +14,18 @@ export const navDropdowns = {
     "Content digitization",
     "Staff onboarding",
   ],
-  "About Us": [
-    "Our story",
-    "Implementation team",
-    "Partner institutions",
-    "Careers",
-  ],
   "Our Resources": [
     "LMS guides",
     "ERP playbooks",
     "EdTech blog",
     "Adoption templates",
   ],
-  
+  "About Us": [
+    "Our story",
+    "Implementation team",
+    "Partner institutions",
+    "Careers",
+  ],
 };
 
 export const services = [
