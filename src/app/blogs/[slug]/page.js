@@ -108,7 +108,7 @@ export default function BlogDetails({ params }) {
 
             <article className="prose prose-lg max-w-none prose-slate">
 
-              {blog.content.map((section, index) => (
+              {blog?.content?.map((section, index) => (
                 <div key={index} className="mb-14">
 
                   <h2 className="mb-5 text-3xl font-black text-slate-900">
