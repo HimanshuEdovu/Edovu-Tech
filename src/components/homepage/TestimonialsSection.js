@@ -119,7 +119,7 @@ export default function TestimonialsSection() {
                   </div>
 
                   <p className="text-2xl leading-10 text-white">
-                    "{item.review}"
+                    {item.review}
                   </p>
 
                   <div className="mt-8">
