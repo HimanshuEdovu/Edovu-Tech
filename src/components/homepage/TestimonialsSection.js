@@ -14,7 +14,7 @@ const testimonials = [
     name: "Rahul Sharma",
     role: "Principal",
     company: "Delhi Public School",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=600&q=80",
+    image: "/profile.png",
     review:
       "Edovu LMS transformed our digital classrooms with AI-powered learning and analytics. Student engagement and teacher productivity have improved dramatically.",
   },
@@ -22,7 +22,7 @@ const testimonials = [
     name: "Priya Mehta",
     role: "Academic Director",
     company: "Bright Future Academy",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=600&q=80",
+    image: "/profile.png",
     review:
       "From assessments to attendance and learning insights, everything is available in one intuitive platform. Implementation was seamless.",
   },
@@ -30,7 +30,7 @@ const testimonials = [
     name: "Amit Verma",
     role: "Training Head",
     company: "SkillHub Institute",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&q=80",
+    image: "/profile.png",
     review:
       "The AI automation and reporting capabilities save hours every week while providing a much better learning experience for our students.",
   },
