@@ -36,10 +36,9 @@ export default function Navbar({ openDemo }) {
   sm:rounded-full
   sm:px-5
   relative
-  overflow-hidden
 ">
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1628] via-[#122038] to-[#f97316]" />  <div className="absolute -left-16 top-0 h-40 w-40 rounded-full bg-orange-500/30 blur-3xl" />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#0B1628] via-[#122038] to-[#f97316] rounded-full" />  <div className="absolute -left-16 top-0 h-40 w-40 rounded-full bg-orange-500/30 blur-3xl" />
 
           <div className="absolute right-0 top-0 h-32 w-32 rounded-full bg-teal-500/10 blur-3xl" />
         </div>
@@ -58,11 +57,11 @@ export default function Navbar({ openDemo }) {
           </span>
           <span className="hidden leading-tight sm:block">
             <span className="block text-lg font-black tracking-normal text-white">
-              EDOVUTech
+              EDOVULearn
             </span>
-            <span className="block text-xs font-medium text-orange-200/80">
+            {/* <span className="block text-xs font-medium text-orange-200/80">
               LMS, ERP & EdTech
-            </span>
+            </span> */}
           </span>
         </Link>
 
@@ -70,25 +69,31 @@ export default function Navbar({ openDemo }) {
           {navItems.map((item) => (
             <div
               key={item.href}
-              className="relative"
-              onMouseEnter={() =>
-                setOpenMenu(navDropdowns[item.label] ? item.label : null)
-              }
-              onMouseLeave={() => setOpenMenu(null)}
+              className="relative group"
+              onMouseEnter={() => {
+                if (navDropdowns[item.label]) {
+                  setOpenMenu(item.label);
+                }
+              }}
+              onMouseLeave={() => {
+                setTimeout(() => {
+                  setOpenMenu((prev) => (prev === item.label ? null : prev));
+                }, 150);
+              }}
             >
               <Link
                 href={item.href}
                 className="flex items-center gap-1.5 rounded-full px-4 py-2 text-sm font-semibold text-slate-200 transition duration-300 hover:bg-white/10 hover:text-orange-200"
               >
                 <span>{item.label}</span>
-                {/* {navDropdowns[item.label] ? (
+                {navDropdowns[item.label] ? (
                   <span
                     className={`text-xs text-orange-200 transition duration-300 ${openMenu === item.label ? "rotate-180" : ""
                       }`}
                   >
                     ▼
                   </span>
-                ) : null} */}
+                ) : null}
               </Link>
               <AnimatePresence>
                 {openMenu === item.label ? (
@@ -97,16 +102,16 @@ export default function Navbar({ openDemo }) {
                     animate={{ opacity: 1, y: 0, x: "-50%", scale: 1 }}
                     exit={{ opacity: 0, y: 10, x: "-50%", scale: 0.98 }}
                     transition={{ duration: 0.22 }}
-                    className="absolute left-1/2 top-full mt-4 w-64 overflow-hidden rounded-lg border border-white/15 bg-[#0c1729]/95 p-2 shadow-2xl shadow-black/35 backdrop-blur-2xl"
-                  >
+                    className="absolute left-1/2 top-full pt-4 w-64 -translate-x-1/2 overflow-hidden rounded-lg border border-white/15 bg-[#0c1729]/95 p-2 shadow-2xl shadow-black/35 backdrop-blur-2xl z-[999]"                  >
                     <div className="absolute inset-x-6 top-0 h-px bg-gradient-to-r from-transparent via-orange-300 to-transparent" />
                     {navDropdowns[item.label].map((entry) => (
                       <Link
-                        key={entry}
-                        href={item.href}
+                        key={entry.label}
+                        href={entry.href}
                         className="group flex items-center justify-between rounded-md px-4 py-3 text-sm font-semibold text-slate-200 transition duration-300 hover:bg-white/10 hover:text-orange-200"
                       >
-                        <span>{entry}</span>
+                        <span>{entry.label}</span>
+
                         <span className="text-orange-300 opacity-0 transition duration-300 group-hover:translate-x-1 group-hover:opacity-100">
                           &rarr;
                         </span>
@@ -212,12 +217,12 @@ export default function Navbar({ openDemo }) {
                           <div className="mx-2 mb-2 grid gap-1 rounded-2xl border border-white/10 bg-white/[0.04] p-2">
                             {navDropdowns[item.label].map((entry) => (
                               <Link
-                                key={entry}
-                                href={item.href}
+                                key={entry.label}
+                                href={entry.href}
                                 onClick={() => setMobileOpen(false)}
                                 className="rounded-xl px-4 py-2.5 text-sm font-semibold text-slate-300 transition hover:bg-white/10 hover:text-orange-200"
                               >
-                                {entry}
+                                {entry.label}
                               </Link>
                             ))}
                           </div>

@@ -1,30 +1,73 @@
 export const navItems = [
   { label: "Home", href: "/" },
-    { label: "About Us", href: "/about" },
-  { label: "Our Services", href: "/services" },
-  { label: "Our LMS", href: "/lms" },
-  { label: "Our Resources", href: "/resources" },
+
+  // { label: "About Us", href: "/about" },
+
+  { label: "Edu. Technology", href: "/services" },
+
+  // { label: "Projects", href: "/lms" },
+
+  { label: "Curriculum Solutions", href: "/resources" },
+
   { label: "Contact Us", href: "/contact" },
 ];
 
 export const navDropdowns = {
-  "Our Services": [
-    "Academic ERP setup",
-    "LMS implementation",
-    "Content digitization",
-    "Staff onboarding",
-  ],
-  "Our Resources": [
-    "LMS guides",
-    "ERP playbooks",
-    "EdTech blog",
-    "Adoption templates",
-  ],
   "About Us": [
-    "Our story",
-    "Implementation team",
-    "Partner institutions",
-    "Careers",
+    {
+      label: "Our Story",
+      href: "/about#story",
+    },
+    {
+      label: "Implementation Team",
+      href: "/about#team",
+    },
+    {
+      label: "Partner Institutions",
+      href: "/about#partners",
+    },
+    {
+      label: "Careers",
+      href: "/careers",
+    },
+  ],
+
+  "Edu. Technology": [
+    {
+      label: "AI Powered LMS",
+      href: "/ai-powered-lms",
+    },
+    {
+      label: "Data Security",
+      href: "/data-security",
+    },
+    {
+      label: "LMS for Rural and Urban India",
+      href: "/lms-for-rural-and-urban-india",
+    },
+    {
+      label: "Our Projects",
+      href: "/services/staff-onboarding",
+    },
+  ],
+
+  "Curriculum Solutions": [
+    {
+      label: "LMS Guides",
+      href: "/resources/lms-guides",
+    },
+    {
+      label: "ERP Playbooks",
+      href: "/resources/erp-playbooks",
+    },
+    {
+      label: "EdTech Blog",
+      href: "/blog",
+    },
+    {
+      label: "Adoption Templates",
+      href: "/resources/templates",
+    },
   ],
 };
 
