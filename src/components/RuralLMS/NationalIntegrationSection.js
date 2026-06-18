@@ -68,7 +68,7 @@ export default function NationalIntegrationSection() {
 
                         <span className="text-orange-400">
 
-                            {" "}India's Digital Education Ecosystem
+                            {" "}India&apos;s Digital Education Ecosystem
 
                         </span>
 
@@ -193,7 +193,7 @@ export default function NationalIntegrationSection() {
 
                                 From learning resources and school profiles to
                                 student identity and digital credentials, Edovu LMS
-                                securely connects with India's digital education
+                                securely connects with India&apos;s digital education
                                 ecosystem.
 
                             </p>

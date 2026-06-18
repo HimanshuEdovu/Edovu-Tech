@@ -141,7 +141,7 @@ export default function PersonalizedLearningSection() {
 
                         <p className="mt-8 text-lg leading-8 text-slate-600">
 
-                            The platform maps a student's unique cognitive footprint
+                            The platform maps a student&apos;s unique cognitive footprint
                             based on response time, historical error patterns and
                             individual pacing.
 

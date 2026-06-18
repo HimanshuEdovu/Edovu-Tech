@@ -216,7 +216,7 @@ export default function IntelligentTutoringSection() {
 
                             <p className="mt-3 text-slate-300">
 
-                                AI adapts conversations according to every student's grade.
+                                AI adapts conversations according to every student&apos;s grade.
 
                             </p>
 

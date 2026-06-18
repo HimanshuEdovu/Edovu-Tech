@@ -140,7 +140,7 @@ export default function DemoModal({ open, onClose }) {
                             <div className="p-14 text-center text-white">
                                 <h2 className="text-4xl font-black">Demo Request Received</h2>
                                 <p className="mt-4 text-slate-300">
-                                    We'll contact you within 24 hours.
+                                    We&apos;ll contact you within 24 hours.
                                 </p>
                                 <button
                                     onClick={onClose}
