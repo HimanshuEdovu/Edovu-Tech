@@ -136,7 +136,7 @@ export default function HybridLMSSection() {
                             {/* Add your image */}
 
                             <Image
-                                src=""
+                                src="/contentImages/sd-card.png"
                                 alt="Hybrid LMS"
                                 width={900}
                                 height={700}
@@ -147,7 +147,7 @@ export default function HybridLMSSection() {
 
                         {/* Floating Card */}
 
-                        <div className="absolute -bottom-8 right-8 rounded-[30px] bg-[#08111f] p-7 shadow-2xl">
+                        {/* <div className="absolute -bottom-8 right-8 rounded-[30px] bg-[#08111f] p-7 shadow-2xl">
 
                             <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-orange-400">
 
@@ -170,7 +170,7 @@ export default function HybridLMSSection() {
 
                             </p>
 
-                        </div>
+                        </div> */}
 
                     </motion.div>
 
