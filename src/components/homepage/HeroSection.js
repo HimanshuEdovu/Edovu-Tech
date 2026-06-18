@@ -31,7 +31,7 @@ const slides = [
   },
   {
     badge: "Digital Transformation",
-    title: "The Future Of Education Starts With EdovuTech",
+    title: "The Future Of Education Starts With EdovuLearn",
     desc: "AI, analytics, automation and digital infrastructure designed for modern institutions.",
     image:
       "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=2000&q=80",

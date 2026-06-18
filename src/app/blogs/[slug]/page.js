@@ -145,7 +145,7 @@ export default function BlogDetails({ params }) {
                   </h3>
 
                   <p className="mt-3 leading-7 text-slate-600">
-                    The EDOVUTech editorial team shares
+                    The EDOVULearn editorial team shares
                     practical insights on LMS platforms,
                     academic ERP systems, digital learning,
                     and educational technology trends.

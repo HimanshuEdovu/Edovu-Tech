@@ -12,7 +12,7 @@ export default function AboutPage() {
         <PageHero
           eyebrow="About us"
           title="We build education technology that feels useful from day one."
-          description="EDOVUTech focuses on practical LMS and ERP workflows, clear implementation, and measurable outcomes for institutions moving toward digital-first education."
+          description="EDOVULearn focuses on practical LMS and ERP workflows, clear implementation, and measurable outcomes for institutions moving toward digital-first education."
         />
         <Reveal as="section" className="px-5 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2 lg:items-center">

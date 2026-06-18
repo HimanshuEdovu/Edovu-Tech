@@ -12,7 +12,7 @@ export default function LmsPage() {
         <PageHero
           eyebrow="Our LMS"
           title="A modern LMS for courses, assessments, analytics, and blended learning."
-          description="EDOVUTech LMS gives teachers simple creation tools and gives administrators the visibility they need to improve completion, engagement, and outcomes."
+          description="EDOVULearn LMS gives teachers simple creation tools and gives administrators the visibility they need to improve completion, engagement, and outcomes."
         />
         <Reveal as="section" className="px-5 py-16 sm:px-6 lg:px-8">
           <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.9fr_1.1fr]">

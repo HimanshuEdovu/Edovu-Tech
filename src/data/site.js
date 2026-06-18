@@ -3,7 +3,7 @@ export const navItems = [
 
   // { label: "About Us", href: "/about" },
 
-  { label: "Edu. Technology", href: "/services" },
+  { label: "Edu. Technology", href: "/ai-powered-lms" },
 
   // { label: "Projects", href: "/lms" },
 
@@ -47,27 +47,27 @@ export const navDropdowns = {
     },
     {
       label: "Our Projects",
-      href: "/services/staff-onboarding",
+      href: "/projects",
     },
   ],
 
   "Curriculum Solutions": [
     {
-      label: "LMS Guides",
-      href: "/resources/lms-guides",
+      label: "Edovu Curriculum",
+      href: "/edovu-curriculum",
     },
     {
-      label: "ERP Playbooks",
-      href: "/resources/erp-playbooks",
+      label: "Books",
+      href: "/books",
     },
     {
-      label: "EdTech Blog",
-      href: "/blog",
+      label: "Digital Assets",
+      href: "/digital-assets",
     },
-    {
-      label: "Adoption Templates",
-      href: "/resources/templates",
-    },
+    // {
+    //   label: "Adoption Templates",
+    //   href: "/resources/templates",
+    // },
   ],
 };
 
@@ -139,7 +139,7 @@ export const blogPosts = [
     category: "LMS",
     date: "May 12, 2026",
     readTime: "5 min read",
-    author: "EDOVUTech Team",
+    author: "EdovuLearn Team",
   },
 
   {
@@ -152,7 +152,7 @@ export const blogPosts = [
     category: "ERP",
     date: "May 18, 2026",
     readTime: "6 min read",
-    author: "EDOVUTech Team",
+    author: "EdovuLearn Team",
   },
 
   {
@@ -165,7 +165,7 @@ export const blogPosts = [
     category: "Digital Learning",
     date: "May 24, 2026",
     readTime: "4 min read",
-    author: "EDOVUTech Team",
+    author: "EdovuLearn Team",
   },
 
   {
@@ -178,7 +178,7 @@ export const blogPosts = [
     category: "AI",
     date: "June 1, 2026",
     readTime: "7 min read",
-    author: "EDOVUTech Team",
+    author: "EdovuLearn Team",
   },
 
   {
@@ -191,7 +191,7 @@ export const blogPosts = [
     category: "LMS",
     date: "June 3, 2026",
     readTime: "6 min read",
-    author: "EDOVUTech Team",
+    author: "EdovuLearn Team",
   },
 
   {
@@ -204,7 +204,7 @@ export const blogPosts = [
     category: "Digital Campus",
     date: "June 5, 2026",
     readTime: "5 min read",
-    author: "EDOVUTech Team",
+    author: "EdovuLearn Team",
   },
 ];
 

@@ -117,7 +117,7 @@ export default function AcademicERPSection() {
 
                         <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-600">
 
-                            EdovuTech LMS & ERP provides a comprehensive
+                            EdovuLearn LMS & ERP provides a comprehensive
                             cloud-native solution designed specifically for the
                             needs of modern EdTech organizations.
 
@@ -213,7 +213,7 @@ export default function AcademicERPSection() {
 
                                 <p className="mt-8 text-lg leading-8 text-slate-300">
 
-                                    EdovuTech LMS & ERP is a comprehensive,
+                                    EdovuLearn LMS & ERP is a comprehensive,
                                     cloud-native solution designed specifically
                                     for the needs of modern EdTech organizations.
 

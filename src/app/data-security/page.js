@@ -9,9 +9,9 @@ import WebSecuritySection from "@/components/DataSecurity/WebSecuritySection";
 // import SecurityBanner from "@/components/DataSecurity/SecurityBanner";
 
 export const metadata = {
-  title: "Data Privacy & Security | EdovuTech",
+  title: "Data Privacy & Security | EdovuLearn",
   description:
-    "EdovuTech LMS follows ISO 27001 Privacy Information Management System (PIMS) standards with enterprise-grade encryption, role-based access control, and advanced web application security.",
+    "EdovuLearn LMS follows ISO 27001 Privacy Information Management System (PIMS) standards with enterprise-grade encryption, role-based access control, and advanced web application security.",
 };
 
 export default function DataSecurityPage() {

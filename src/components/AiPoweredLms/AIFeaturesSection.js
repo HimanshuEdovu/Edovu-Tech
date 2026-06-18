@@ -110,7 +110,7 @@ export default function AIFeaturesSection() {
 
                     <p className="mx-auto mt-6 max-w-3xl text-lg leading-8 text-slate-300">
 
-                        EdovuTech LMS combines AI, analytics, virtual classrooms,
+                        EdovuLearn LMS combines AI, analytics, virtual classrooms,
                         adaptive learning and cloud-native technologies into one
                         intelligent education platform.
 

@@ -70,7 +70,7 @@ export default function WhyChooseEdovu() {
 
                     <span className="inline-flex rounded-full bg-orange-100 px-5 py-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-600">
 
-                        Why Choose EdovuTech
+                        Why Choose EdovuLearn
 
                     </span>
 

@@ -13,7 +13,7 @@ const geistMono = localFont({
 });
 
 export const metadata = {
-  title: "EDOVUTech | LMS, ERP & EdTech Solutions",
+  title: "EDOVULearn | LMS, ERP & EdTech Solutions",
   description:
     "Modern LMS, academic ERP, digital content, and ed tech implementation services for schools, colleges, and training teams.",
 };

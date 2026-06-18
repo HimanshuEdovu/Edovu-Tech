@@ -122,7 +122,7 @@ export default function AIPoweredLMSContent() {
 
                         <p className="mt-7 text-lg leading-8 text-slate-600">
 
-                            EdovuTech LMS platform supports AI enabled online
+                            EdovuLearn LMS platform supports AI enabled online
                             school, virtual classroom technology, online school
                             with AI learning, online learning management
                             systems and interactive virtual school platforms
