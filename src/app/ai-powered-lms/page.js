@@ -6,6 +6,8 @@ import AIFeaturesSection from "@/components/AiPoweredLms/AIFeaturesSection";
 import LearningAnalyticsSection from "@/components/AiPoweredLms/LearningAnalyticsSection";
 import AcademicERPSection from "@/components/AiPoweredLms/AcademicERPSection";
 import WhyChooseEdovu from "@/components/AiPoweredLms/WhyChooseEdovu";
+import LMSShowcaseSlider from "@/components/AiPoweredLms/LMSShowcaseSlider";
+import MobileAppSection from "@/components/AiPoweredLms/MobileAppSection";
 
 export default function AIPoweredLMSPage() {
     return (
@@ -69,6 +71,8 @@ export default function AIPoweredLMSPage() {
                 </section>
                 <AIPoweredLMSContent />
                 <AIFeaturesSection />
+                    <LMSShowcaseSlider />
+                <MobileAppSection/>
                 <LearningAnalyticsSection />
                 <AcademicERPSection />
                 <WhyChooseEdovu />

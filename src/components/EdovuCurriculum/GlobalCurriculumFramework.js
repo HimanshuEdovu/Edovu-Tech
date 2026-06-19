@@ -126,7 +126,7 @@ export default function GlobalCurriculumFramework() {
                     className="mx-auto mt-20 max-w-5xl rounded-[36px] bg-[#08111f] p-12 text-center"
                 >
 
-                    <h3 className="text-4xl font-black text-white">
+                    <h3 className="text-3xl font-black text-white">
 
                         Together, these globally recognized frameworks create a balanced learning experience that nurtures academic excellence, critical thinking, confidence, and lifelong curiosity.
 

@@ -109,7 +109,7 @@ export default function EduxllSection() {
 
                         <p className="mt-6 text-lg leading-8 text-slate-300">
 
-                            Powered by Edovu Learn's technology ecosystem,
+                            Powered by Edovu Learn&apos;s technology ecosystem,
                             the platform enables universities, institutions,
                             professionals and learners to access high-quality
                             education, career-focused programs and emerging
@@ -118,13 +118,13 @@ export default function EduxllSection() {
 
                         </p>
 
-                        <button className="mt-10 flex items-center gap-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-400 px-8 py-4 font-bold text-white shadow-xl shadow-orange-500/20 transition hover:scale-105">
+                        {/* <button className="mt-10 flex items-center gap-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-400 px-8 py-4 font-bold text-white shadow-xl shadow-orange-500/20 transition hover:scale-105">
 
                             Explore Platform
 
                             <ArrowUpRight size={18} />
 
-                        </button>
+                        </button> */}
 
                     </motion.div>
 

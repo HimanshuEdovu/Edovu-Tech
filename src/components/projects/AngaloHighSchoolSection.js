@@ -128,7 +128,7 @@ export default function AngaloHighSchoolSection() {
 
                         <p className="mt-8 text-lg leading-8 text-slate-600">
 
-                            Angalo High School represents Edovu Learn's commitment
+                            Angalo High School represents Edovu Learn&apos;s commitment
                             to helping educational institutions embrace digital
                             transformation while maintaining academic excellence
                             and student success.
@@ -145,13 +145,13 @@ export default function AngaloHighSchoolSection() {
 
                         </p>
 
-                        <button className="mt-10 flex items-center gap-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-400 px-8 py-4 font-bold text-white shadow-xl shadow-orange-500/20 transition hover:scale-105">
+                        {/* <button className="mt-10 flex items-center gap-3 rounded-full bg-gradient-to-r from-orange-500 to-orange-400 px-8 py-4 font-bold text-white shadow-xl shadow-orange-500/20 transition hover:scale-105">
 
                             Explore Institution
 
                             <ArrowUpRight size={18} />
 
-                        </button>
+                        </button> */}
 
                     </motion.div>
 
@@ -257,7 +257,7 @@ export default function AngaloHighSchoolSection() {
                 </div>
 
                 {/* ================= MESSAGE ================= */}
-
+{/* 
                 <motion.div
 
                     initial={{ opacity: 0, y: 40 }}
@@ -324,7 +324,7 @@ export default function AngaloHighSchoolSection() {
 
                     </div>
 
-                </motion.div>
+                </motion.div> */}
 
                 {/* ================= BOTTOM TAGS ================= */}
 

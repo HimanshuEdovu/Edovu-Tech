@@ -37,7 +37,7 @@ export default function CurriculumOverview() {
               {/* Add Image */}
 
               <Image
-                src=""
+                src="/contentImages/edovu-curriculum.jpg"
                 alt="Edovu Curriculum"
                 width={900}
                 height={900}
@@ -47,7 +47,7 @@ export default function CurriculumOverview() {
             </div>
 
             {/* Floating Card */}
-
+{/* 
             <div className="absolute -bottom-8 left-8 rounded-[30px] bg-[#08111f] p-7 shadow-2xl">
 
               <div className="mb-4 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-orange-400">
@@ -71,7 +71,7 @@ export default function CurriculumOverview() {
 
               </p>
 
-            </div>
+            </div> */}
 
           </motion.div>
 

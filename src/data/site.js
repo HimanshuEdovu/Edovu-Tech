@@ -1,36 +1,36 @@
 export const navItems = [
   { label: "Home", href: "/" },
 
-  // { label: "About Us", href: "/about" },
+  { label: "About Us", href: "/about" },
 
   { label: "Edu. Technology", href: "/ai-powered-lms" },
 
   // { label: "Projects", href: "/lms" },
 
-  { label: "Curriculum Solutions", href: "/resources" },
+  { label: "Curriculum Solutions", href: "/edovu-curriculum" },
 
   { label: "Contact Us", href: "/contact" },
 ];
 
 export const navDropdowns = {
-  "About Us": [
-    {
-      label: "Our Story",
-      href: "/about#story",
-    },
-    {
-      label: "Implementation Team",
-      href: "/about#team",
-    },
-    {
-      label: "Partner Institutions",
-      href: "/about#partners",
-    },
-    {
-      label: "Careers",
-      href: "/careers",
-    },
-  ],
+  // "About Us": [
+  //   {
+  //     label: "Our Story",
+  //     href: "/about#story",
+  //   },
+  //   {
+  //     label: "Implementation Team",
+  //     href: "/about#team",
+  //   },
+  //   {
+  //     label: "Partner Institutions",
+  //     href: "/about#partners",
+  //   },
+  //   {
+  //     label: "Careers",
+  //     href: "/careers",
+  //   },
+  // ],
 
   "Edu. Technology": [
     {

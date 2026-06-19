@@ -126,7 +126,7 @@ export default function BooksPage() {
 
                 {/* Learning Journey */}
 
-                <LearningJourney />
+                {/* <LearningJourney /> */}
 
                 {/* Key Highlights */}
 

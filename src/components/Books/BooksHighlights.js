@@ -45,7 +45,7 @@ const highlights = [
 
 export default function BooksHighlights() {
     return (
-        <section className="relative overflow-hidden bg-slate-50 py-24">
+        <section className="relative overflow-hidden bg-white py-24">
 
             {/* Background */}
 

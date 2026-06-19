@@ -114,7 +114,7 @@ export default function StepupLearningSection() {
                             {/* Replace Image */}
 
                             <Image
-                                src=""
+                                src="/images/stepup.png"
                                 alt="StepUp Learning"
                                 fill
                                 className="object-cover"
@@ -148,7 +148,7 @@ export default function StepupLearningSection() {
 
                             <p className="mt-6 text-lg leading-8 text-slate-600">
 
-                                Powered by Edovu Learn's technology ecosystem,
+                                Powered by Edovu Learn&apos;s technology ecosystem,
                                 the platform delivers engaging virtual classrooms,
                                 structured curriculum, continuous academic
                                 support and flexible learning experiences that

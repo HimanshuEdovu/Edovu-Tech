@@ -81,7 +81,7 @@ export default function DigitalAssetsPage() {
 
                             </motion.p>
 
-                            <motion.div
+                            {/* <motion.div
 
                                 initial={{ opacity: 0, y: 30 }}
 
@@ -101,7 +101,7 @@ export default function DigitalAssetsPage() {
 
                                 </button>
 
-                            </motion.div>
+                            </motion.div> */}
 
                         </div>
 

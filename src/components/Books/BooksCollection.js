@@ -103,34 +103,15 @@ export default function BooksCollection() {
                             >
 
                                 {/* Image */}
-
-                                <div className="relative h-[300px] overflow-hidden bg-slate-100">
+                                <div className="relative flex h-[340px] items-center justify-center bg-gradient-to-br from-orange-50 via-white to-slate-100">
 
                                     <Image
-
                                         src={book.image}
-
                                         alt={book.title}
-
-                                        width={800}
-
-                                        height={800}
-
-                                        className="h-full w-full object-cover transition duration-700 group-hover:scale-105"
-
+                                        width={320}
+                                        height={450}
+                                        className="h-[280px] w-auto rounded-lg shadow-2xl transition duration-700 group-hover:scale-105 group-hover:-rotate-2"
                                     />
-
-                                    <div className="absolute left-6 top-6 flex h-16 w-16 items-center justify-center rounded-2xl bg-gradient-to-br from-orange-500 to-orange-400 shadow-xl">
-
-                                        <Icon
-
-                                            size={30}
-
-                                            className="text-white"
-
-                                        />
-
-                                    </div>
 
                                 </div>
 
@@ -154,7 +135,7 @@ export default function BooksCollection() {
 
                                 {/* Bottom Strip */}
 
-                                <div className="border-t border-slate-100 bg-gradient-to-r from-orange-50 to-white px-8 py-5">
+                                {/* <div className="border-t border-slate-100 bg-gradient-to-r from-orange-50 to-white px-8 py-5">
 
                                     <p className="text-sm font-bold uppercase tracking-[0.18em] text-orange-600">
 
@@ -162,7 +143,7 @@ export default function BooksCollection() {
 
                                     </p>
 
-                                </div>
+                                </div> */}
 
                             </motion.div>
 

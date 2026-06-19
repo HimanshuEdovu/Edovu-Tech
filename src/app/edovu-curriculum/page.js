@@ -64,7 +64,7 @@ export default function EdovuCurriculumPage() {
 
                             </p>
 
-                            <div className="mt-10 flex flex-wrap gap-5">
+                            {/* <div className="mt-10 flex flex-wrap gap-5">
 
                                 <button className="rounded-full bg-gradient-to-r from-orange-500 to-orange-400 px-8 py-4 font-bold text-white shadow-xl shadow-orange-500/30 transition hover:scale-105">
 
@@ -78,7 +78,7 @@ export default function EdovuCurriculumPage() {
 
                                 </button>
 
-                            </div>
+                            </div> */}
 
                         </div>
 

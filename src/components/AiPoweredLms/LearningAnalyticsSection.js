@@ -69,7 +69,7 @@ export default function LearningAnalyticsSection() {
 
                     </span>
 
-                    <h2 className="mt-6 text-5xl font-black text-slate-900">
+                    <h2 className="mt-6 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
 
                         Learning Beyond
                         <span className="text-orange-500">
@@ -94,218 +94,216 @@ export default function LearningAnalyticsSection() {
 
                 <div className="mt-20 space-y-12">
 
-                 <div className="mt-20 space-y-24">
+                    <div className="mt-20 space-y-24">
 
-    {/* SECTION 1 */}
+                        {/* SECTION 1 */}
 
-    <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: .6 }}
-        className="grid items-center gap-16 lg:grid-cols-2"
-    >
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: .6 }}
+                            className="grid items-center gap-8 lg:gap-16 lg:grid-cols-2"
+                        >
 
-        <div>
+                            <div>
 
-            <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-orange-500 to-orange-400 shadow-xl">
+                                <div className="mb-6 inline-flex h-20 w-20 items-center justify-center rounded-3xl bg-gradient-to-br from-orange-500 to-orange-400 shadow-xl">
 
-                <BrainCircuit
-                    size={38}
-                    className="text-white"
-                />
+                                    <BrainCircuit
+                                        size={38}
+                                        className="text-white"
+                                    />
 
-            </div>
+                                </div>
 
-            <span className="rounded-full bg-orange-100 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-600">
+                                <span className="rounded-full bg-orange-100 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-600">
 
-                Interactive Learning
+                                    Interactive Learning
 
-            </span>
+                                </span>
 
-            <h3 className="mt-6 text-5xl font-black text-slate-900">
+                                <h3 className="mt-6 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
 
-                Transform Learning Into
-                An Experience
+                                    Transform Learning Into
+                                    An Experience
 
-            </h3>
+                                </h3>
 
-            <p className="mt-6 text-lg leading-8 text-slate-600">
+                                <p className="mt-6 text-base leading-7 sm:text-lg sm:leading-8 text-slate-600">
 
-                Transform learning into an experience with gamified lessons
-                designed to make complex concepts stick. With instant AI
-                assessments following every topic, students move from just
-                studying to true mastery.
+                                    Transform learning into an experience with gamified lessons
+                                    designed to make complex concepts stick. With instant AI
+                                    assessments following every topic, students move from just
+                                    studying to true mastery.
 
-            </p>
+                                </p>
 
-        </div>
+                            </div>
 
-        <div>
+                            <div>
 
-            <div className="overflow-hidden rounded-[40px] shadow-2xl">
+                                <div className="overflow-hidden rounded-[40px] shadow-2xl">
 
-                <Image
+                                    <Image
 
-                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80"
+                                        src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&q=80"
 
-                    width={900}
+                                        width={900}
 
-                    height={700}
+                                        height={700}
 
-                    alt="Interactive Learning"
+                                        alt="Interactive Learning"
 
-                    className="h-full w-full object-cover"
+                                            className="h-full w-full object-cover"
 
-                />
 
-            </div>
+                                    />
 
-        </div>
+                                </div>
 
-    </motion.div>
+                            </div>
 
-    {/* SECTION 2 */}
+                        </motion.div>
 
-    <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: .6 }}
-        className="relative overflow-hidden rounded-[40px] bg-[#08111f] p-12"
-    >
+                        {/* SECTION 2 */}
 
-        <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-orange-500/10 blur-[120px]" />
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: .6 }}
+className="relative overflow-hidden rounded-[40px] bg-[#08111f] p-6 sm:p-8 lg:p-12"                        >
 
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+                            <div className="absolute right-0 top-0 h-72 w-72 rounded-full bg-orange-500/10 blur-[120px]" />
 
-            <div>
+                            <div className="grid items-center gap-8 lg:gap-16 lg:grid-cols-2">
 
-                <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-300">
+                                <div>
 
-                    Gamification
+                                    <span className="rounded-full border border-orange-500/20 bg-orange-500/10 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-orange-300">
 
-                </span>
+                                        Gamification
 
-                <h3 className="mt-6 text-5xl font-black text-white">
+                                    </span>
 
-                    Gamification &
-                    Immersive Content
+                                    <h3 className="mt-6 text-5xl font-black text-white">
 
-                </h3>
+                                        Gamification &
+                                        Immersive Content
 
-                <p className="mt-6 text-lg leading-8 text-slate-300">
+                                    </h3>
 
-                    Our AI LMS features adaptive quizzing that evolves in
-                    difficulty based on every answer. We also offer immersive
-                    simulations, bringing virtual labs and real-world scenarios
-                    directly to the student&apos;s screen.
+                                    <p className="mt-6 text-lg leading-8 text-slate-300">
 
-                </p>
+                                        Our AI LMS features adaptive quizzing that evolves in
+                                        difficulty based on every answer. We also offer immersive
+                                        simulations, bringing virtual labs and real-world scenarios
+                                        directly to the student&apos;s screen.
 
-            </div>
+                                    </p>
 
-            <div className="grid gap-6">
+                                </div>
 
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+                                <div className="grid gap-6">
 
-                    <Gamepad2
-                        className="mb-4 text-orange-400"
-                        size={34}
-                    />
+                                    <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
 
-                    <h4 className="text-2xl font-bold text-white">
+                                        <Gamepad2
+                                            className="mb-4 text-orange-400"
+                                            size={34}
+                                        />
 
-                        Adaptive Quizzing
+                                        <h4 className="text-2xl font-bold text-white">
 
-                    </h4>
+                                            Adaptive Quizzing
 
-                </div>
+                                        </h4>
 
-                <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
+                                    </div>
 
-                    <MonitorPlay
-                        className="mb-4 text-orange-400"
-                        size={34}
-                    />
+                                    <div className="rounded-3xl border border-white/10 bg-white/5 p-6 backdrop-blur-xl">
 
-                    <h4 className="text-2xl font-bold text-white">
+                                        <MonitorPlay
+                                            className="mb-4 text-orange-400"
+                                            size={34}
+                                        />
 
-                        Virtual Simulations
+                                        <h4 className="text-2xl font-bold text-white">
 
-                    </h4>
+                                            Virtual Simulations
 
-                </div>
+                                        </h4>
 
-            </div>
+                                    </div>
 
-        </div>
+                                </div>
 
-    </motion.div>
+                            </div>
 
-    {/* SECTION 3 */}
+                        </motion.div>
 
-    <motion.div
-        initial={{ opacity: 0, y: 50 }}
-        whileInView={{ opacity: 1, y: 0 }}
-        viewport={{ once: true }}
-        transition={{ duration: .6 }}
-        className="rounded-[40px] bg-gradient-to-r from-orange-50 to-cyan-50 p-12"
-    >
+                        {/* SECTION 3 */}
 
-        <div className="grid items-center gap-16 lg:grid-cols-2">
+                        <motion.div
+                            initial={{ opacity: 0, y: 50 }}
+                            whileInView={{ opacity: 1, y: 0 }}
+                            viewport={{ once: true }}
+                            transition={{ duration: .6 }}
+                            className="rounded-[40px] bg-gradient-to-r from-orange-50 to-cyan-50 p-6 sm:p-8 lg:p-12"                        >
 
-            <div>
+                            <div className="grid items-center gap-8 lg:gap-16 lg:grid-cols-2">
 
-                <div className="relative mx-auto h-[420px] w-[420px] overflow-hidden rounded-[40px] shadow-2xl">
+                                <div>
 
-                    <Image
+                                    <div className="relative mx-auto aspect-square w-full max-w-[420px] overflow-hidden rounded-[40px] shadow-2xl">
+                                        <Image
 
-                        src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80"
+                                            src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=1200&q=80"
 
-                        fill
+                                            fill
 
-                        alt="Learning Videos"
+                                            alt="Learning Videos"
 
-                        className="object-cover"
+                                            className="object-cover"
 
-                    />
+                                        />
 
-                </div>
+                                    </div>
 
-            </div>
+                                </div>
 
-            <div>
+                                <div>
 
-                <span className="rounded-full bg-cyan-100 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-cyan-700">
+                                    <span className="rounded-full bg-cyan-100 px-4 py-2 text-xs font-bold uppercase tracking-[0.2em] text-cyan-700">
 
-                    Learning Videos
+                                        Learning Videos
 
-                </span>
+                                    </span>
 
-                <h3 className="mt-6 text-5xl font-black text-slate-900">
+                                    <h3 className="mt-6 text-3xl font-black leading-tight sm:text-4xl lg:text-5xl">
 
-                    Learning Videos &
-                    Simulators
+                                        Learning Videos &
+                                        Simulators
 
-                </h3>
+                                    </h3>
 
-                <p className="mt-6 text-lg leading-8 text-slate-600">
+                                    <p className="mt-6 text-base leading-7 sm:text-lg sm:leading-8 text-slate-600">
 
-                    Learning Videos and Simulators serve as the bridge between
-                    theoretical knowledge and practical application.
-                    Simulators allow students to engage in Learning by Doing,
-                    proven to increase long-term retention.
+                                        Learning Videos and Simulators serve as the bridge between
+                                        theoretical knowledge and practical application.
+                                        Simulators allow students to engage in Learning by Doing,
+                                        proven to increase long-term retention.
 
-                </p>
+                                    </p>
 
-            </div>
+                                </div>
 
-        </div>
+                            </div>
 
-    </motion.div>
+                        </motion.div>
 
-</div>
+                    </div>
                 </div>
 
             </div>
@@ -349,7 +347,7 @@ export default function LearningAnalyticsSection() {
 
                     </div>
 
-                    <div className="mt-16 grid gap-8 lg:grid-cols-3">
+                    <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
 
                         {analytics.map((item) => {
 

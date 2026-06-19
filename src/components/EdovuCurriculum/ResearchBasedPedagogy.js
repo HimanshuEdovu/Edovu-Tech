@@ -33,7 +33,7 @@ const pedagogy = [
     {
         icon: Search,
         title: "Inquiry-Based Learning",
-        image: "",
+        image: "/contentImages/industry.png",
         description:
             "Encourages students to ask questions, investigate ideas, and construct their own understanding.",
     },
